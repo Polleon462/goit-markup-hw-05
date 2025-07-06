@@ -519,7 +519,6 @@ main {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-    
 }
 
 .icon-footer {
@@ -536,7 +535,7 @@ main {
 } */
 
 /* ------------------MODAL-WINDOWS---------------------- */
-.modal-overlay {
+.pop-up {
   position: fixed;
   top: 0;
   left: 0;
