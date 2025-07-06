@@ -488,9 +488,11 @@ main {
 .footer-form-email input {
   outline: none;
   min-width: 264px;
-  background-color: rgba(0, 0, 0, 0);
+  height: 40px;
+  background-color: transparent;
   border: 1px solid #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  color: #ffffff;
   border-radius: 4px;
   padding: 8px 16px;
 }
@@ -511,7 +513,13 @@ main {
   align-self: center;
   align-items: center;
 }
-.footer .btn::after {
+
+.icon-footer {
+
+
+  margin-left: 16px;
+}
+/* .footer .btn::after {
   content: "";
   width: 24px;
   height: 20px;
@@ -519,7 +527,7 @@ main {
   background-image: url(../images/icon_send.svg);
   background-size: contain;
   background-repeat: no-repeat;
-}
+} */
 
 /* ------------------MODAL-WINDOWS---------------------- */
 .modal-overlay {

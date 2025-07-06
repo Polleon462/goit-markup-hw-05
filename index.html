@@ -469,17 +469,22 @@
           </div>
 
           <div class="footer-form">
-            <p>Subscribe</p>
+            <p class="footer-modal-text">Subscribe</p>
             <form name="Subscribe" class="footer-form-email">
-              <label for="email"></label>
+              <label for="email" class=".visually-hidden"></label>
               <input
                 type="email"
                 placeholder="E-mail"
                 id="email"
                 name="email" />
+              <button type="submit" class="btn">
+                Subscribe
+                <svg class="icon-footer" width="16" height="16">
+                  <use href="./images/icons.svg#icon-sub"></use>
+                </svg>
+              </button>
             </form>
           </div>
-          <button type="submit" class="btn">Subscribe</button>
         </div>
       </footer>
 
