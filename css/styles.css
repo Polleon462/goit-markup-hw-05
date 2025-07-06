@@ -474,6 +474,8 @@ main {
 }
 
 .footer-form-email {
+  display: flex;
+  gap: 24px;
   margin-right: 24px;
 }
 .footer-form p {
@@ -485,7 +487,7 @@ main {
 
   margin-bottom: 16px;
 }
-.footer-form-email input {
+.footer-input {
   outline: none;
   min-width: 264px;
   height: 40px;
@@ -497,7 +499,7 @@ main {
   padding: 8px 16px;
 }
 
-.footer-form-email input::placeholder {
+.footer-input::placeholder {
   color: #fff;
   font-weight: 400;
   font-size: 12px;
@@ -515,8 +517,6 @@ main {
 }
 
 .icon-footer {
-
-
   margin-left: 16px;
 }
 /* .footer .btn::after {

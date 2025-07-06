@@ -41,7 +41,7 @@
               </li>
             </ul>
           </nav>
-          <adress class="adress">
+          <address class="adress">
             <ul class="adress-list">
               <li class="adress-list-item">
                 <a href="mailto:info@devstudio.com" class="adress-list-link">
@@ -54,7 +54,7 @@
                 </a>
               </li>
             </ul>
-          </adress>
+          </address>
         </div>
       </header>
 
@@ -471,16 +471,19 @@
           <div class="footer-form">
             <p class="footer-modal-text">Subscribe</p>
             <form name="Subscribe" class="footer-form-email">
-              <label for="email" class=".visually-hidden"></label>
-              <input
-                type="email"
-                placeholder="E-mail"
-                id="email"
-                name="email" />
+              <label for="email" class=".visually-hidden">
+                <input
+                  type="email"
+                  placeholder="E-mail"
+                  id="email"
+                  name="email" 
+                  class="footer-input"/>
+              </label>
+
               <button type="submit" class="btn">
                 Subscribe
                 <svg class="icon-footer" width="16" height="16">
-                  <use href="./images/icons.svg#icon-sub"></use>
+                  <use href="./images/icons.svg#icon-send"></use>
                 </svg>
               </button>
             </form>
@@ -489,18 +492,18 @@
       </footer>
 
       <!------------MODAL-WINDOWS--------------->
-      <div class="modal-overlay .is-open">
+      <div class="modal-overlay i">
         <div class="modal">
           <button type="button" class="modal-svg-cross-holder">
             <svg class="modal-svg-cross" width="8" height="8">
-              <use href="./images/cross.svg"></use>
+              <use href="./images/icons.svg#icon-vector"></use>
             </svg>
           </button>
           <p class="modal-title">
             Leave your contacts and we will call you back
           </p>
 
-          <form action="" class="modal-form">
+          <form class="modal-form">
             <div class="modal-form-item">
               <label for="name">Name</label>
               <div class="">
